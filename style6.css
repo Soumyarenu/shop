@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #171515;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+li{
+    cursor: pointer;
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+}
+button{
+    width: fit-content;
+    background-color: #302f2f;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 25px;
+}
+.logo{
+    height: 5px;
+    width: 5px;
+}
+.header-navbar ul{
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 30px;
+    
+}
+.header-image{
+    width: 45%;
+}
+.header-navbar{
+    width: 55%;
+}
+.image-one{
+    display:flex;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+.image-one h1{
+    font-size: 90px;
+    color:gray;
+    padding-top: 30px;
+    
+}
+.image-one h2{
+    font-size: 50px;
+    padding:50px ;
+}
+.image-one-logos ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px;
+    
+}
+.image-one-logos li{
+    text-decoration: none;
+}
+.image-one-logos img{
+    height: 50pxpx;
+    width: 50px;
+}
+.image-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 90px;
+    color:gray;
+    padding-top: 30px;
+}
+.image-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.image-two-logos img{
+    height: 30px;
+    width: 30px;
+
+}
+.image-two img{
+    padding: 30px;
+    border-radius: 50px;
+}
+.image-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.image-four{
+    height: 500px;
+    width:900px;
+    background-color: #302f2f;
+    border-radius: 50px;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 300px;
+}  
+.image-five{
+
+    padding: 100px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px
+}
+footer img{
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+}
+ 
+
